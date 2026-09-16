@@ -63,7 +63,7 @@ def make_ico(group_data, icon_images):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--exe", required=True)
-    parser.add_argument("--out", required=True, help="res/ directory")
+    parser.add_argument("--out", default="./res")
     args = parser.parse_args()
 
     pe = pefile.PE(args.exe)

@@ -1,6 +1,3 @@
-# cmake -B build -G Ninja --toolchain cmake/msvc-wine.cmake
-# cmake --build build
-
 cmake_minimum_required(VERSION 3.29)
 project(Hopmon LANGUAGES CXX RC)
 
