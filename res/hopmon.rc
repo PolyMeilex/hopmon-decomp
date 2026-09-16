@@ -1,0 +1,199 @@
+#include "resource.h"
+
+LANGUAGE 0x09, 0x01  // LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+101 ICON "icons/Hopmon.ico"
+
+156 BITMAP "textures/156.bmp"
+160 BITMAP "textures/160.bmp"
+161 BITMAP "textures/161.bmp"
+162 BITMAP "textures/162.bmp"
+163 BITMAP "textures/163.bmp"
+169 BITMAP "textures/169.bmp"
+170 BITMAP "textures/170.bmp"
+182 BITMAP "textures/182.bmp"
+183 BITMAP "textures/183.bmp"
+185 BITMAP "textures/185.bmp"
+186 BITMAP "textures/186.bmp"
+187 BITMAP "textures/187.bmp"
+188 BITMAP "textures/188.bmp"
+189 BITMAP "textures/189.bmp"
+191 BITMAP "textures/191.bmp"
+192 BITMAP "textures/192.bmp"
+193 BITMAP "textures/193.bmp"
+194 BITMAP "textures/194.bmp"
+195 BITMAP "textures/195.bmp"
+200 BITMAP "textures/200.bmp"
+201 BITMAP "textures/201.bmp"
+202 BITMAP "textures/202.bmp"
+204 BITMAP "textures/204.bmp"
+205 BITMAP "textures/205.bmp"
+206 BITMAP "textures/206.bmp"
+207 BITMAP "textures/207.bmp"
+208 BITMAP "textures/208.bmp"
+209 BITMAP "textures/209.bmp"
+219 BITMAP "textures/219.bmp"
+220 BITMAP "textures/220.bmp"
+246 BITMAP "textures/246.bmp"
+247 BITMAP "textures/247.bmp"
+248 BITMAP "textures/248.bmp"
+251 BITMAP "textures/251.bmp"
+252 BITMAP "textures/252.bmp"
+316 BITMAP "textures/316.bmp"
+320 BITMAP "textures/320.bmp"
+321 BITMAP "textures/321.bmp"
+322 BITMAP "textures/322.bmp"
+323 BITMAP "textures/323.bmp"
+324 BITMAP "textures/324.bmp"
+325 BITMAP "textures/325.bmp"
+332 BITMAP "textures/332.bmp"
+
+232 WAVE "sounds/232.wav"
+233 WAVE "sounds/233.wav"
+234 WAVE "sounds/234.wav"
+235 WAVE "sounds/235.wav"
+236 WAVE "sounds/236.wav"
+237 WAVE "sounds/237.wav"
+238 WAVE "sounds/238.wav"
+239 WAVE "sounds/239.wav"
+240 WAVE "sounds/240.wav"
+241 WAVE "sounds/241.wav"
+243 WAVE "sounds/243.wav"
+244 WAVE "sounds/244.wav"
+245 WAVE "sounds/245.wav"
+254 WAVE "sounds/254.wav"
+255 WAVE "sounds/255.wav"
+317 WAVE "sounds/317.wav"
+318 WAVE "sounds/318.wav"
+319 WAVE "sounds/319.wav"
+
+148 RCDATA "models/148.x"
+149 RCDATA "models/149.x"
+150 RCDATA "models/150.x"
+157 RCDATA "models/157.x"
+164 RCDATA "models/164.x"
+165 RCDATA "models/165.x"
+166 RCDATA "models/166.x"
+167 RCDATA "models/167.x"
+168 RCDATA "models/168.x"
+171 RCDATA "models/171.x"
+172 RCDATA "models/172.x"
+173 RCDATA "models/173.x"
+174 RCDATA "models/174.x"
+175 RCDATA "models/175.x"
+176 RCDATA "models/176.x"
+177 RCDATA "models/177.x"
+178 RCDATA "models/178.x"
+179 RCDATA "models/179.x"
+180 RCDATA "models/180.x"
+199 RCDATA "models/199.x"
+210 RCDATA "models/210.x"
+212 RCDATA "models/212.x"
+315 RCDATA "models/315.x"
+329 RCDATA "models/329.x"
+330 RCDATA "models/330.x"
+331 RCDATA "models/331.x"
+
+265 RCDATA "maps/265.txt"
+266 RCDATA "maps/266.txt"
+267 RCDATA "maps/267.txt"
+268 RCDATA "maps/268.txt"
+269 RCDATA "maps/269.txt"
+270 RCDATA "maps/270.txt"
+276 RCDATA "maps/276.txt"
+277 RCDATA "maps/277.txt"
+278 RCDATA "maps/278.txt"
+279 RCDATA "maps/279.txt"
+280 RCDATA "maps/280.txt"
+281 RCDATA "maps/281.txt"
+282 RCDATA "maps/282.txt"
+283 RCDATA "maps/283.txt"
+284 RCDATA "maps/284.txt"
+285 RCDATA "maps/285.txt"
+286 RCDATA "maps/286.txt"
+287 RCDATA "maps/287.txt"
+288 RCDATA "maps/288.txt"
+289 RCDATA "maps/289.txt"
+290 RCDATA "maps/290.txt"
+291 RCDATA "maps/291.txt"
+292 RCDATA "maps/292.txt"
+293 RCDATA "maps/293.txt"
+294 RCDATA "maps/294.txt"
+295 RCDATA "maps/295.txt"
+296 RCDATA "maps/296.txt"
+297 RCDATA "maps/297.txt"
+298 RCDATA "maps/298.txt"
+299 RCDATA "maps/299.txt"
+300 RCDATA "maps/300.txt"
+301 RCDATA "maps/301.txt"
+302 RCDATA "maps/302.txt"
+303 RCDATA "maps/303.txt"
+304 RCDATA "maps/304.txt"
+305 RCDATA "maps/305.txt"
+306 RCDATA "maps/306.txt"
+307 RCDATA "maps/307.txt"
+308 RCDATA "maps/308.txt"
+309 RCDATA "maps/309.txt"
+310 RCDATA "maps/310.txt"
+311 RCDATA "maps/311.txt"
+312 RCDATA "maps/312.txt"
+313 RCDATA "maps/313.txt"
+314 RCDATA "maps/314.txt"
+
+144 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+143 DIALOGEX 0, 0, 132, 68
+STYLE 0x90C00BC6
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0
+BEGIN
+    CONTROL "OK", 1, "BUTTON", 0x50010001, 45, 50, 40, 14
+    CONTROL 101, -1, "STATIC", 0x50000003, 5, 5, 20, 20
+    CONTROL "HOPMON", -1, "STATIC", 0x50020000, 35, 5, 54, 8
+    CONTROL "Copyright (C) 2001-2009 Saito Games", -1, "STATIC", 0x5002000C, 4, 30, 124, 10
+    CONTROL "Ver 1.31", -1, "STATIC", 0x50020000, 35, 15, 24, 8
+END
+
+144 DIALOGEX 0, 0, 171, 213
+STYLE 0x80C808C0
+CAPTION "Hopmon"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL 246, -1, "STATIC", 0x5000000E, 5, 5, 160, 71, 0x00000200
+    CONTROL "Ver 2.0", -1, "STATIC", 0x50000202, 136, 70, 29, 8
+    CONTROL "---", 1022, "STATIC", 0x50020201, 35, 70, 100, 8
+    CONTROL "Display Setting", -1, "BUTTON", 0x50000007, 4, 80, 164, 72
+    CONTROL "&Video Device :", -1, "STATIC", 0x5000020C, 11, 96, 50, 12
+    CONTROL "", 1000, "COMBOBOX", 0x50210003, 64, 96, 95, 104
+    CONTROL "&Resolution :", -1, "STATIC", 0x5000020C, 12, 116, 40, 12
+    CONTROL "", 1001, "COMBOBOX", 0x50210003, 64, 116, 95, 108
+    CONTROL "Display &FPS", 1015, "BUTTON", 0x50010003, 12, 136, 52, 10
+    CONTROL "Start", 1, "BUTTON", 0x50010001, 4, 194, 52, 16
+    CONTROL "Manual", 1026, "BUTTON", 0x50010000, 60, 194, 52, 16
+    CONTROL "Exit", 2, "BUTTON", 0x50010000, 116, 194, 52, 16
+END
+
+249 DIALOG 10, 10, 135, 63
+STYLE 0x80C800C0
+CAPTION "Register"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL "&Registration Key :", -1, "STATIC", 0x5000000C, 10, 9, 60, 8
+    CONTROL "", 1024, "EDIT", 0x50810008, 10, 20, 115, 14
+    CONTROL "OK", 1, "BUTTON", 0x50010001, 15, 45, 50, 15
+    CONTROL "Cancel", 2, "BUTTON", 0x50010000, 70, 45, 50, 15
+END
+
+113 ACCELERATORS
+BEGIN
+    112, 40001, VIRTKEY, NOINVERT
+    113, 40002, VIRTKEY, NOINVERT
+    114, 40004, VIRTKEY, NOINVERT
+    115, 40005, VIRTKEY, NOINVERT
+    13, 40003, VIRTKEY, ALT, NOINVERT
+END
+
+1 24 "manifest/Hopmon.exe.manifest"

@@ -1,0 +1,13 @@
+/build/
+*.exe
+*.pdb
+
+res/textures/*.bmp
+res/sounds/*.wav
+res/models/*.x
+res/maps/*.txt
+res/icons/*.ico
+!res/**/.gitkeep
+
+__pycache__/
+*.pyc
