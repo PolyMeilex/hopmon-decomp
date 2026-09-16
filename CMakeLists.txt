@@ -8,6 +8,8 @@ if(NOT MSVC)
   message(FATAL_ERROR "Hopmon needs MSVC, VS 16.11.5")
 endif()
 
+option(HOPMON_FHD "Enable widescreen/FHD resolution support patch" OFF)
+
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/game")
 
@@ -63,6 +65,10 @@ add_executable(Hopmon WIN32
 
 target_include_directories(Hopmon PRIVATE include)
 target_link_directories(Hopmon PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/vendor/dx7sdk/lib")
+
+if(HOPMON_FHD)
+  target_compile_definitions(Hopmon PRIVATE HOPMON_FHD)
+endif()
 
 target_link_libraries(Hopmon PRIVATE
     kernel32.lib user32.lib gdi32.lib advapi32.lib shell32.lib winmm.lib

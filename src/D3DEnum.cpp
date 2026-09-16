@@ -458,8 +458,10 @@ VOID UpdateDialogControls( HWND hDlg, D3DEnum_DeviceInfo* pCurrentDevice,
                 if( pddsdMode->dwWidth < 640 || pddsdMode->dwHeight < 480 )
                     continue;
 
+#ifndef HOPMON_FHD
                 if( pddsdMode->dwWidth > 1280 || pddsdMode->dwHeight > 960 )
                     continue;
+#endif
 
                 if( pddsdMode->ddpfPixelFormat.dwRGBBitCount != 16 )
                     continue;

@@ -253,7 +253,12 @@ HRESULT XApplication::InitDeviceObjects()
     m_pd3dDevice->SetRenderState(D3DRENDERSTATE_LIGHTING, TRUE);
     m_pd3dDevice->SetRenderState(D3DRENDERSTATE_ZENABLE, TRUE);
     D3DMATRIX matProj;
+#ifdef HOPMON_FHD
+    FLOAT fAspect = (FLOAT)GetScreenHeight() / (FLOAT)GetScreenWidth();
+    D3DUtil_SetProjectionMatrix(matProj, 0.7330383f, fAspect, 10.0f, 2000.0f);
+#else
     D3DUtil_SetProjectionMatrix(matProj, 0.7330383f, 0.75f, 10.0f, 2000.0f);
+#endif
     m_pd3dDevice->SetTransform(D3DTRANSFORMSTATE_PROJECTION, &matProj);
     D3DLIGHT7 light;
     D3DUtil_InitLight(light, D3DLIGHT_DIRECTIONAL, 0.77f, 0.1f, 0.5f, -1.0f, 0.5f);
